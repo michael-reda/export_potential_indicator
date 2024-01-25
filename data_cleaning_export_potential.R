@@ -216,9 +216,11 @@ combined_data <- combined_data %>% mutate(iso3_o = case_when(iso3num_o == "499" 
                                                              TRUE ~ iso3_d))
 
 ## 5) Gravity data
+# Conte, M., P. Cotterlaz and T. Mayer (2022), "The CEPII Gravity database". CEPII Working Paper N°2022-05, July 2022.
+# http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=8
 
 # gravity_data <- readRDS("Gravity_V202211.rds")
-# 
+
 # # filter for years 2015 - 2021 (2015 because we need t-1 to calculate growth rates)
 # # filter for only countries that exist now
 # # remove the self-paired rows (o = d)

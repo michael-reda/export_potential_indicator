@@ -237,4 +237,6 @@ v_ijk <- bilateral_data %>%
   
 export_potential_percentage_change <- (epi_ijk / v_ijk)*100
 
+# TEST COMMENT FOR MIKE AND LEWIS
+
 
